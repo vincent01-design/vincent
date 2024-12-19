@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vincent's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Side Menu -->
+  <div id="sidemenu" class="sidemenu">
+    <button class="closebtn" onclick="closeNav()">×</button>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#routine">Daily Routine</a>
+    <a href="#growth">Personal Growth</a>
+    <a href="#memories">Memories</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Hamburger Button for Mobile Screens -->
+  <span class="openbtn" onclick="openNav()">&#9776;</span>
+
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#routine">Daily Routine</a></li>
+        <li><a href="#growth">Personal Growth</a></li>
+        <li><a href="#memories">Memories</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="home-content">
+        <div class="home-text">
+          <h1>Hi, I'm <span></span>Vincent<br></h1>
+          <p>A 3rd-year IT student at Samar State University.</p>
+        </div>
+        <div class="home-image">
+          <img src="images/462556616_1291414648546513_6541178675056542164_n.jpg" alt="Vincent's Picture">
+        </div>
+      </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello! My name is Vincent, a 3rd-year IT student at Samar State University (SSU), CAS Department.  
+          My passion for technology drives me to explore programming, software development, and innovative problem-solving.  
+          Being an IT student isn't always easy, especially now that I'm in my third year. It comes with numerous challenges like demanding projects, activities, and tight deadlines.  
+          However, I embrace every challenge as an opportunity to learn, grow, and improve. I believe in hard work, perseverance, and staying curious in a fast-evolving field.
+        </p>
+        <p>
+          When I'm not coding or studying, I enjoy relaxing by:
+          <ul>
+            <li>Watching my favorite anime and movies</li>
+            <li>Reading manwha and manga</li> 
+            <li>Journaling and reflecting on my progress</li> 
+            <li>Spending time with friends and family</li> 
+            <li>Exploring new tech gadgets and tools</li>
+            <li>Playing video games to unwind</li> 
+            <li>Listening to music or podcasts about technology and personal growth</li>
+            <li>Cooking simple recipes to explore my creative side</li>
+          </ul>
+        </p>
+        <p>
+          My ultimate goal is to make meaningful contributions to the tech industry and inspire others to follow their dreams.
+        </p>
+      </section>
+  
+       <!-- Daily Routine Section -->
+       <section id="routine">
+        <h2>Daily Routine</h2>
+        
+        <div class="centered-text">
+        <p>
+          My daily routine helps me stay focused, productive, and balanced. Here's how my day typically looks:
+        </p>
+        </div>
+
+        <div class="routine-item">
+          <h3>Morning Routine</h3>
+          <p>
+            I wake up at 6 AM, meditate for 10 minutes, and enjoy a healthy breakfast before starting my schooldays.
+          </p>
+        </div>
+        <div class="routine-item"> 
+          <h3>Learning</h3>
+          <p>
+            After school, I spend time watching on youtube videos or working on personal projects. It's important to balance schoolwork and amuse oneself or console yourself to relieved stress.
+          </p>
+        </div>
+        <div class="routine-item">
+          <h3>Exercise</h3>
+          <p>
+            I jogging every weekend or go for a run in the evening sometimes. Staying active helps me stay energized and focused.
+          </p>
+        </div>
+        <div class="routine-item">
+          <h3>Evening Reflection</h3>
+          <p>
+            Before bed, I reflect on my day, journal my thoughts, and plan for tomorrow.
+          </p>
+        </div>
+      </section>
+  
+         <!-- Personal Growth Section -->
+    <section id="growth">
+      <h2>Personal Growth</h2>
+      <div class="centered-text">
+        <p>
+          My journey of self-improvement has been marked by these significant milestones:
+        </p>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">October 5, 2022</div>
+          <div class="timeline-content">
+            <h3>Started Reading Daily</h3>
+            <p>
+              I set a goal to read any books whether it's fiction or nonfiction everyday to improve my knowledge and relax.
+            </p>
+            <button onclick="location.href='reading.html'">Read More</button>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">December 20, 2022</div>
+          <div class="timeline-content">
+            <h3>Improved My Cooking Skills</h3>
+            <p>
+              I learned how to cook more complex meals and started meal prepping for the week to maintain a healthy lifestyle.
+            </p>
+            <button onclick="location.href='cooking.html'">Read More</button>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">September 2, 2023</div>
+          <div class="timeline-content">
+            <h3>Started Learning Time Management</h3>
+            <p>
+              Focused on better managing my time between schoolwork, personal projects, and relaxation.
+            </p>
+            <button onclick="location.href='timemanagement.html'">Read More</button>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">January 1, 2024</div>
+          <div class="timeline-content">
+            <h3>Started Meditating Every Day</h3>
+            <p>
+              Made meditation part of my daily routine to reduce stress and stay mindful.
+            </p>
+            <button onclick="location.href='meditation.html'">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Memories Section -->
+<section id="memories">
+  <h2>Memories</h2>
+  <div class="gallery">
+    <div class="memory">
+      <img src="images/prends.jpg" alt="Summer Vacation">
+      <div class="caption">
+        <h3>Summer Vacation</h3>
+        <p>Spent a week with family and friends and exploring nature. It was a much-needed break to recharge and gain new perspectives.</p>
+        <a href="summer-vacation.html" class="read-more-btn">Read More</a>
+      </div>
+    </div>
+    <div class="memory">
+      <img src="images/codepic.jpg" alt="First Coding Project">
+      <div class="caption">
+        <h3>First Coding Project</h3>
+        <p>Developed a first project System last year when I was in second year. It was challenging but so rewarding!</p>
+        <a href="coding-project.html" class="read-more-btn">Read More</a>
+      </div>
+    </div>
+    <div class="memory">
+      <img src="images/cover.jpg" alt="First Coding Project">
+      <div class="caption">
+        <h3>My Recent Project</h3>
+        <p>I recently completed a calculator app, a Web Registration and Search System using Firebase, Google Maps API, and Webhooks, and a personal portfolio website to showcase my skills and projects. These projects highlight my abilities in development, API integration, and web design</p>
+        <a href="my-recent-projects.html" class="read-more-btn">Read More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+<div class="social-media">
+  <h3>If you want to connect, ask questions, or just chat, feel free to reach out here!</h3>
+  <h3>Connect With Me:</h3>
+  
+  <a href="https://www.facebook.com/vincent.abadiano.73" target="_blank" class="social-icon facebook">
+    <i class="fab fa-facebook"></i>
+  </a>
+  <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fpin.it%2F4hVlUWfL3%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR15dLjTQcXr0goD0RSRpaxh0StrRKg0jXStLQUFstlRXW-XOvXySrnxTOU_aem_cLUBfGWxLcnQQx_2rSeJOQ&h=AT2OnY8VCnXC4oUCvhiBgxebJmg_5ovYVgaIuBIs_X9jWbgPL90qcwXbYlwX6izPiQdLp_yB_U4LsZBWQXtWSOaob63W82eVRAkdDlymul4MrXKDVwM4xwsEzKL2DTsih1_fww" target="_blank" class="social-icon pinterest">
+    <i class="fab fa-pinterest"></i>
+  </a>
+  <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fventtusk%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR3fTgyPql5F7PRAmfAcXYyFs6fqNKe39Wa7kThLxyxj1l6dCT-af794-xY_aem_h-_Q06weAgaJkw7ZqHeXYg&h=AT0v9xwNMwawyEuIUgWPtUNEXfbXEY9I4sFkztkEvC24WDaHvg4FGF0JQiFl1JbI82aULPNgbQdcg2KfJDkPRs1V2d7kwpmntrbAAsDSdLX1qloAb-bTg3aecNoU6iGbI8CuHUboGroZY_8_" target="_blank" class="social-icon instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fmail.google.com%2Fmail%2Fmu%2Fmp%2F223%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR3VmaryE4J5wgq75aRr3q_GzlSG5-nGaqCTWcnkX0ZlS_O6m4lxOC5otis_aem_MyMK-Fhc73lBF-aLDvK8gQ%23&h=AT2OnY8VCnXC4oUCvhiBgxebJmg_5ovYVgaIuBIs_X9jWbgPL90qcwXbYlwX6izPiQdLp_yB_U4LsZBWQXtWSOaob63W82eVRAkdDlymul4MrXKDVwM4xwsEzKL2DTsih1_fww" target="_blank" class="social-icon email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</div>
+</section>
+
+
+  </main>
+  <footer>
+    <p>&copy; 2024 Vincent | Samar State University</p>
+  </footer>
+  <button class="back-to-top" onclick="scrollToTop()">↑ Back to Top</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
