@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Summer Vacation</title>
-  <link rel="stylesheet" href="styles.css">
+ 
+
   <style>
    
     * {
@@ -247,12 +247,19 @@
     text-align: center;
   }
 
-  p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    text-align: center;
-    margin: 20px;
-  }
+/* General paragraph styles */
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+  margin: 20px;
+}
+
+/* Centered paragraph using class */
+.p1 {
+  text-align: center;
+}
+
 
   /* Styles for the photo gallery */
   .photo-gallery {
@@ -297,7 +304,7 @@
 <body>
   <header class="decorative-header">
     <h1>My Summer Vacation</h1>
-    <p>Experience the sun, fun, and relaxation like never before!</p>
+    <p class="p1">Experience the sun, fun, and relaxation like never before!</p>
   </header>
 
   <main>
@@ -310,7 +317,7 @@
 
     <section>
       <h2>Vacation Memories</h2>
-      <p>Here are some of my favorite vacation photos:</p>
+      <p class="p1">Here are some of my favorite vacation photos:</p>
       <div class="photo-gallery">
         <img src="images/lovefam.jpg" alt="Vacation photo 1" />
         <img src="images/lovefam2.jpg" alt="Vacation photo 2" />
@@ -326,7 +333,7 @@
 
     <section>
       <h2>Vacation Videos</h2>
-      <p>Here are some short videos from my vacations:</p>
+      <p class="p1">Here are some short videos from my vacations:</p>
       <div class="video-gallery">
         <video width="320" height="240" controls>
           <source src="videos/Beauty of nature.mp4" type="video/mp4" />

@@ -1,7 +1,7 @@
 // Social Media Link Click Event
 document.querySelectorAll('.social-media a').forEach((link) => {
   link.addEventListener('click', (e) => {
-    const platform = e.target.getAttribute('href'); // Gets the link URL
+    const platform = e.target.getAttribute('href'); 
     alert(`You're being redirected to ${platform}.`);
   });
 });
